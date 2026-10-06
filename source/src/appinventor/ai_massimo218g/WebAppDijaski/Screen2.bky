@@ -1,0 +1,439 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="1" x="-56" y="-497">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen2" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen2</field>
+    <statement name="DO">
+      <block type="component_set_get" id="2" inline="false">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+        <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="text" id="^+.qi-(}(MqrK}N%EG7_">
+            <field name="TEXT">https://example.org/urnik/#vzgo</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="kvt9vWhQ[.mgFyzu_Q;`" inline="false">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+            <field name="COMPONENT_SELECTOR">URLTextBox</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="}f#yZ/p^UaM.sdYF/!xd">
+                <field name="TEXT">https://example.org/urnik/#vzgo</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="a?XM|{d0-bY$*7/T|V^e" inline="false">
+                <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+                <field name="COMPONENT_SELECTOR">PrevButton</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="y?4jnnGy?rx5Qf*n/,|s">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="cseF}1|;;CTEukc#d3K4" inline="false">
+                    <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="NextButton"></mutation>
+                    <field name="COMPONENT_SELECTOR">NextButton</field>
+                    <field name="PROP">Enabled</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="z3kWxLv9vC0YEO?!-]om">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="eu3[`,-_RL_p`NXW!w9#" x="694" y="-491">
+    <mutation component_type="Button" is_generic="false" instance_name="Home" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Home</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="{dN~7=kWr0_~GH+Z.S+}">
+        <value name="SCREEN">
+          <block type="text" id="rKO)`uDThct-qa2$-rK@">
+            <field name="TEXT">Screen1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="{$#_l$@n[EM(tqZx#`7c" x="694" y="-396">
+    <mutation component_type="Button" is_generic="false" instance_name="Urnik" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Urnik</field>
+    <statement name="DO">
+      <block type="component_set_get" id="{1AcTs5gYk}z+EkoU4SC" inline="false">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+        <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="text" id="X^4)0(4,3%=6d.{$;3ZT">
+            <field name="TEXT">https://example.org/urnik/#vzgo</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="4" inline="false">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+            <field name="COMPONENT_SELECTOR">URLTextBox</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="5">
+                <field name="TEXT">https://example.org/urnik/#vzgo</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="6" inline="false">
+                <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+                <field name="COMPONENT_SELECTOR">PrevButton</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id="7">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="8" inline="false">
+                    <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="NextButton"></mutation>
+                    <field name="COMPONENT_SELECTOR">NextButton</field>
+                    <field name="PROP">Enabled</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id="9">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="10" x="-73" y="-311">
+    <mutation component_type="Button" is_generic="false" instance_name="GoButton" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">GoButton</field>
+    <statement name="DO">
+      <block type="controls_if" id="11" inline="false">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_or" id="12" inline="false">
+            <field name="OP">OR</field>
+            <comment pinned="false" h="78" w="318">Don't just use contains "http" because http.com is a valid domain too.</comment>
+            <value name="A">
+              <block type="text_contains" id="13">
+                <value name="TEXT">
+                  <block type="component_set_get" id="14">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                    <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="PIECE">
+                  <block type="text" id="15">
+                    <field name="TEXT">http://</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text_contains" id="16">
+                <value name="TEXT">
+                  <block type="component_set_get" id="17">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                    <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="PIECE">
+                  <block type="text" id="18">
+                    <field name="TEXT">https://</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="19" inline="false">
+            <mutation component_type="WebViewer" method_name="GoToUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+            <value name="ARG0">
+              <block type="component_set_get" id="20">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_method" id="21" inline="false">
+            <mutation component_type="WebViewer" method_name="GoToUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+            <comment pinned="false" h="62" w="302">Add http:// at the beginning as web viewer requires you to define a valid network protocol.</comment>
+            <value name="ARG0">
+              <block type="text_join" id="22" inline="false">
+                <mutation items="2"></mutation>
+                <value name="ADD0">
+                  <block type="text" id="23">
+                    <field name="TEXT">http://</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="component_set_get" id="24">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                    <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="component_set_get" id="25" inline="false">
+            <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+            <field name="COMPONENT_SELECTOR">PrevButton</field>
+            <field name="PROP">Enabled</field>
+            <value name="VALUE">
+              <block type="logic_boolean" id="26">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="b+PXRi@XyLN4%X)!Yx.e" x="690" y="-219">
+    <mutation component_type="Button" is_generic="false" instance_name="SPOROCILA" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">SPOROCILA</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="eX7J`|C*K$$lZ#Z:k!/s">
+        <value name="SCREEN">
+          <block type="text" id="*l6Fhan8m).WD7]6+bnY">
+            <field name="TEXT">SPOROCILA</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="=xaCY}wAf?ETm]4|NRt-" x="684" y="-135">
+    <mutation component_type="Button" is_generic="false" instance_name="Login" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Login</field>
+    <statement name="DO">
+      <block type="component_set_get" id="|/08$CI*05fvhPoMP3h%" inline="false">
+        <mutation component_type="WebViewer" set_or_get="set" property_name="HomeUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+        <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+        <field name="PROP">HomeUrl</field>
+        <value name="VALUE">
+          <block type="text" id="/*~+etQD6-:si(/iKGGP">
+            <field name="TEXT">https://example.org/wp-login.php</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="D~}`|%t3fez1yNbM(fGt" inline="false">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+            <field name="COMPONENT_SELECTOR">URLTextBox</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="wk24G5aZW.4!uc(FX]hH">
+                <field name="TEXT">https://example.org/wp-login.php</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="GKf#;f?x[i]p?25@+q20" inline="false">
+                <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+                <field name="COMPONENT_SELECTOR">PrevButton</field>
+                <field name="PROP">Enabled</field>
+                <value name="VALUE">
+                  <block type="logic_boolean" id=")Xjn6V2$vexgE*O2Y:_a">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="c4F,]dC2P~_+ypl@4$}$" inline="false">
+                    <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="NextButton"></mutation>
+                    <field name="COMPONENT_SELECTOR">NextButton</field>
+                    <field name="PROP">Enabled</field>
+                    <value name="VALUE">
+                      <block type="logic_boolean" id=",[SL%[z|RZidbKXCZ(Ha">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="27" x="-77" y="44">
+    <mutation component_type="Button" is_generic="false" instance_name="NextButton" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">NextButton</field>
+    <statement name="DO">
+      <block type="component_set_get" id="28" inline="false">
+        <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+        <field name="COMPONENT_SELECTOR">PrevButton</field>
+        <field name="PROP">Enabled</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="29">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="30">
+            <mutation component_type="WebViewer" method_name="GoForward" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+            <next>
+              <block type="component_set_get" id="55" inline="false">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="component_set_get" id="81">
+                    <mutation component_type="WebViewer" set_or_get="get" property_name="CurrentUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+                    <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+                    <field name="PROP">CurrentUrl</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_if" id="31" inline="false">
+                    <value name="IF0">
+                      <block type="logic_negate" id="32" inline="false">
+                        <value name="BOOL">
+                          <block type="component_method" id="33">
+                            <mutation component_type="WebViewer" method_name="CanGoForward" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+                            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="component_set_get" id="34" inline="false">
+                        <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="NextButton"></mutation>
+                        <field name="COMPONENT_SELECTOR">NextButton</field>
+                        <field name="PROP">Enabled</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="35">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="45" x="-68" y="251">
+    <mutation component_type="Button" is_generic="false" instance_name="PrevButton" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">PrevButton</field>
+    <statement name="DO">
+      <block type="procedures_callnoreturn" id="46">
+        <mutation name="GoBack"></mutation>
+        <field name="PROCNAME">GoBack</field>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="36" x="524" y="228">
+    <field name="NAME">GoBack</field>
+    <statement name="STACK">
+      <block type="component_set_get" id="37" inline="false">
+        <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="NextButton"></mutation>
+        <field name="COMPONENT_SELECTOR">NextButton</field>
+        <field name="PROP">Enabled</field>
+        <value name="VALUE">
+          <block type="logic_boolean" id="38">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="39">
+            <mutation component_type="WebViewer" method_name="GoBack" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+            <next>
+              <block type="component_set_get" id="82" inline="false">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="URLTextBox"></mutation>
+                <field name="COMPONENT_SELECTOR">URLTextBox</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="component_set_get" id="83">
+                    <mutation component_type="WebViewer" set_or_get="get" property_name="CurrentUrl" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+                    <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+                    <field name="PROP">CurrentUrl</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="controls_if" id="40" inline="false">
+                    <value name="IF0">
+                      <block type="logic_negate" id="41" inline="false">
+                        <value name="BOOL">
+                          <block type="component_method" id="42">
+                            <mutation component_type="WebViewer" method_name="CanGoBack" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+                            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="component_set_get" id="43" inline="false">
+                        <mutation component_type="Button" set_or_get="set" property_name="Enabled" is_generic="false" instance_name="PrevButton"></mutation>
+                        <field name="COMPONENT_SELECTOR">PrevButton</field>
+                        <field name="PROP">Enabled</field>
+                        <value name="VALUE">
+                          <block type="logic_boolean" id="44">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="47" x="-71" y="338">
+    <mutation component_type="Form" is_generic="false" instance_name="Screen2" event_name="BackPressed"></mutation>
+    <field name="COMPONENT_SELECTOR">Screen2</field>
+    <statement name="DO">
+      <block type="controls_if" id="48" inline="false">
+        <mutation else="1"></mutation>
+        <comment pinned="false" h="91" w="403">If we can go back, we call GoBack procedure. If we cannot go back, meaning no more web page to go back to, we go to the previous screen.</comment>
+        <value name="IF0">
+          <block type="component_method" id="49">
+            <mutation component_type="WebViewer" method_name="CanGoBack" is_generic="false" instance_name="VZGOJITELJ"></mutation>
+            <field name="COMPONENT_SELECTOR">VZGOJITELJ</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="procedures_callnoreturn" id="50">
+            <mutation name="GoBack"></mutation>
+            <field name="PROCNAME">GoBack</field>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="controls_closeScreen" id="51"></block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="206" language-version="31"></yacodeblocks>
+</xml>

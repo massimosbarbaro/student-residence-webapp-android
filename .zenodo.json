@@ -1,0 +1,23 @@
+{
+  "title": "WebAppDijaski: Android app for the staff timetables and messages of a student residence (MIT App Inventor (Android), 2020)",
+  "upload_type": "software",
+  "description": "<p><em>App Android per gli orari del personale e i messaggi di un convitto per studenti</em></p><p>WebAppDijaski is a small Android client for the website of a student residence. It gives the staff one-tap access to the published timetables of the kitchen, the night service and the educators and to the internal message board, each in its own screen, and handles the WordPress login page and the back navigation inside an embedded web viewer. Slovene interface.</p><p>Designed and programmed by Massimo Sbarbaro in 2020 (MIT App Inventor (Android)). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "MIT App Inventor",
+    "Android",
+    "WebViewer",
+    "WordPress",
+    "school residence",
+    "timetables"
+  ],
+  "version": "1.0",
+  "language": "eng",
+  "notes": "Original development: 2020."
+}

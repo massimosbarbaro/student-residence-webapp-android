@@ -1,0 +1,55 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="1" x="-605" y="-420">
+    <mutation component_type="Button" is_generic="false" instance_name="Home" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Home</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="2" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="3">
+            <field name="TEXT">Screen2</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="XzMB;.3=4wA!NZr,quw]" x="-123" y="-422">
+    <mutation component_type="Button" is_generic="false" instance_name="Urnik" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Urnik</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="}U!%Dpj`}B:E^4j`MaWu" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="#.Kc/fEGt0:Kbv-_Xu%M">
+            <field name="TEXT">NOCNA</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="F02/W-ZgBCw*ku}F?rZu" x="-601" y="-327">
+    <mutation component_type="Button" is_generic="false" instance_name="Login" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Login</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="BFmV6BY1Znf=YGrmrx?]" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="9VR)4K`limN-p[!^@VK-">
+            <field name="TEXT">Kuh</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="{bKqB3vAm4~{.:lxP`*W" x="-119" y="-326">
+    <mutation component_type="Button" is_generic="false" instance_name="SPOROCILA" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">SPOROCILA</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="fM=/ba.zQ8o|pe1ZK4ft" inline="false">
+        <value name="SCREEN">
+          <block type="text" id="qo$Cv#`6iYSo7C`3JZvc">
+            <field name="TEXT">SPOROCILA</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="206" language-version="31"></yacodeblocks>
+</xml>
