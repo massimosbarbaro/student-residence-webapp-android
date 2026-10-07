@@ -1,8 +1,10 @@
 # WebAppDijaski: Android app for the staff timetables and messages of a student residence
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23205247.svg)](https://doi.org/10.5281/zenodo.23205247)
+
 *App Android per gli orari del personale e i messaggi di un convitto per studenti*
 
-**MIT App Inventor (Android)** · 2020 · version 1.0  
+**Android** · 2020 · version 1.0  
 Author: **Massimo Sbarbaro** ([ORCID 0009-0006-8965-9013](https://orcid.org/0009-0006-8965-9013))
 
 ## Overview
@@ -40,9 +42,9 @@ Photographs, illustrations, logos, sound recordings and stock images are **not**
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205247](https://doi.org/10.5281/zenodo.23205247).
 
-> Sbarbaro, Massimo. *WebAppDijaski: Android app for the staff timetables and messages of a student residence (MIT App Inventor (Android), 2020)*. Software, version 1.0. GitHub: https://github.com/massimosbarbaro/student-residence-webapp-appinventor
+> Sbarbaro, Massimo. 2020. *WebAppDijaski: Android app for the staff timetables and messages of a student residence*. Software (Android, 2020), version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23205247.
 
 ## License
 
